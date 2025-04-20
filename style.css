@@ -17,6 +17,7 @@ body{
     justify-content: space-between;
     height: 80px;
     width: 850px;
+    margin: 15px;
 }
 
 .header-logo{
@@ -29,12 +30,6 @@ body{
     gap: 30px;
     list-style: none;
 }
-
-.header-links li a {
-    text-decoration: none;
-    color: white;
-}
-
 
 .header-content{
     display: flex;
@@ -76,21 +71,21 @@ body{
 
 /* Content -- 1 */
 
-.content-1{
+.body-one{
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 400px;
 }
 
-.one-header{
+.body-one-header{
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
     padding: 30px 0;
 }
 
-.one-container{
+.body-one-container{
     display: flex;
     justify-content: center;
     width: 1000px;
@@ -98,7 +93,7 @@ body{
     padding: 0 150px 50px 150px;
 }
 
-.one-img-container{
+.body-one-img-container{
     width: 150px;
     display: flex;
     flex-direction: column;
@@ -107,7 +102,7 @@ body{
     flex-wrap: wrap;
 }
 
-.one-img-container img{
+.body-one-img-container img{
     width: 150px;
     height: auto;
     border-radius: 5%;
@@ -117,7 +112,7 @@ body{
 
 /* Content-2 */
 
-.content-2{
+.body-two{
     height: 300px;
     display: flex;
     background-color: #e5e7eb;
@@ -125,7 +120,7 @@ body{
     align-items: center;
 }
 
-.two-container{
+.body-two-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -139,6 +134,7 @@ body{
     font-style: italic;
     font-weight: 200;
     color: #1f2937;
+
 }
 
 .author{
@@ -150,18 +146,15 @@ body{
 
 /* Content-3 */
 
-.content-3{
+.body-three{
     height: 300px;
     color: #f9fafb;
+    display: flex;
     align-items: center;
-    justify-content: space-around;
-    width: 850px;
-    height: 100px;
-    margin: 0 150px;
-    border-radius: 5px;
+    justify-content: center;
 }
 
-.three-container{
+.body-three-container{
     background-color: #3882f6;
     display: flex;
     align-items: center;
@@ -169,15 +162,17 @@ body{
     width: 850px;
     height: 100px;
     margin: 0 150px;
-    border-radius: 5px; 
+    border-radius: 5px;
+    
 }
 
-.three-text > h1{
+.body-three-text > h1{
     font-size: 20px;
 }
 
-.three-text > p{
+.body-three-text > p{
     font-size: 15px;
+
 }
 
 /* End Content-3 */
@@ -195,6 +190,7 @@ button{
 
 ul{
     list-style: none;
+
 }  
 
 a{
@@ -220,13 +216,3 @@ a, .header-left p, .header-right, button{
 p, h1{
     margin: 0px;
 }
-
-
-
-
-
-
-
-
-
-
